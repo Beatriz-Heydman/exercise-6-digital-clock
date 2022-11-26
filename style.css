@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 0 0.4em #00fff7, 0 0 0.4em #00fff7;
+}
+
+html {
+    width: 100%;
+    min-height: 100vh;
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+}
+
+main {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digital_clock_content {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.date_container {
+    font-size: 2rem;
+    font-family: 'Wallpoet', cursive;
+}
+
+.date_container .date {
+    padding-right: 1.5rem;
+}
+
+.hours_container {
+    font-size: 12rem;
+    font-family: 'Wallpoet', cursive;
+}
+
+footer {
+    min-height: 10vh;
+}
+
+footer p {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+@media (max-width:600px) {
+    .hours_container {
+        font-size: 3rem;
+    }
+}
